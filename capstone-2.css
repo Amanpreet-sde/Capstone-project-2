@@ -1,0 +1,167 @@
+
+h1 {
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+    h2 {
+        color: #66bfbf;
+        font-family: "Montserrat", sans-serif;
+        font-size: 2.5rem;
+        font-weight: normal;
+        padding-bottom: 10px;
+    }
+.pro{
+    text-decoration: underline;
+}
+body{
+    text-align: center;
+    margin: 0;
+    
+}
+#top-container{
+    background-color: #FFFDE7;
+}
+.profile-img {
+    border-radius: 50%;
+    height: 200px;
+    width: 180px;
+    background-color: #E0F7FA;
+  }
+  #middle-container{
+    margin: 100px 0;
+  }
+  p{
+    display: block;
+    font-family: "Merriweather", serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+
+  }
+  p{
+    
+    line-height: 2;
+    margin: 0;
+    text-align: left;
+  }
+  .intro {
+    width: 25%;
+    margin: auto;
+    line-height: 2;
+    text-align: center;
+}
+hr{
+    border-bottom: none;
+    border:dotted #eaf6f6 5px;
+    width: 4%;
+    margin: 100px auto;
+    
+}
+.web-dev{
+  text-align: left; 
+}
+.parent{
+  display: grid;
+  place-items: center;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows:repeat(1, 1fr);
+  row-gap: 2rem;
+  
+}
+h3{
+  text-align: left;
+  margin: 0 0 20px 0;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+.skills{
+  width: 50%; 
+    margin: 0 auto; 
+}
+img{
+  border-radius: 2.5%;
+}
+.contact-me{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  
+}
+.contact-message {
+  width: 80%;
+  margin: 40px auto 60px;
+  text-align: center;
+}
+.button{
+  background-color: #f4511e;
+  color: #ffffff;
+  font-size: 20px;
+  padding:20px ;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 8px;
+  border:none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  transition: all 0.5s;
+  width: 200px;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#bottom-container {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  padding: 50px 0 100px;
+}
+a {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
